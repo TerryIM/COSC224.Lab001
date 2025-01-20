@@ -39,3 +39,10 @@ header {
     width: 70px;
     height: 70px;
 }
+
+.footer-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
