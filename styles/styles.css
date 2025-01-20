@@ -1,9 +1,14 @@
+@font-face {
+    font-family: Megatrans;
+    src: url('../fonts/MegatransdemoRegular-8M9B0.otf');
+}
+
 * {
     box-sizing: border-box;
     font-size: 16px;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Megatrans, Arial, Helvetica, sans-serif;
     text-decoration: none;
     line-height: 1.5;
 }
@@ -11,6 +16,7 @@
 header {
     width: 100%;
     max-height: 200px;
+    border: 5px solid black;
 }
 
 .logo-container {
@@ -24,6 +30,7 @@ header {
 }
 
 .title {
+    font-family: Megatrans;
     font-size: 4rem;
     font-weight: 700;
 }
