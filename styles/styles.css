@@ -12,11 +12,16 @@
     text-decoration: none;
     line-height: 1.5;
 }
+body {
+    
+}
 
 header {
     width: 100%;
     max-height: 200px;
     border: 5px solid black;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 55%, rgba(60,57,57,1) 98%);
 }
 
 .logo-container {
@@ -38,6 +43,17 @@ header {
 .logo {
     width: 70px;
     height: 70px;
+}
+
+footer {
+    width: 100%;
+    max-height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 700;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,9,121,1) 29%, rgba(69,9,121,1) 89%);
+    color: white;
 }
 
 .footer-container {
