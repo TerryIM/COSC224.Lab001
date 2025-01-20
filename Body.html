@@ -6,19 +6,33 @@
 <title>Stuff About Space</title>
 </head>
 <body>
-	
-	<div id="PoC"></div><h3>The Pillars of Creation</h3>
+	<button style="position: fixed; right: 10px; top: 10px;"
+		onclick="scrollToTop()">Top</button>
+
+	<div id="PoC"></div>
+	<h3>The Pillars of Creation</h3>
 	<img src="images/pilarsofcreation.jpeg" alt="Pillars of Creation">
 	<p>test</p>
-	
-	<div id="supernova"></div><h3>A Remnant Supernova</h3>
+
+	<div id="supernova"></div>
+	<h3>A Remnant Supernova</h3>
 	<img src="images/remnantSuperNova.webp" alt="A Remnant of a Supernova">
 	<p>test2</p>
-	
-	<div id="sun"></div><h3>The Sun</h3>
+
+	<div id="sun"></div>
+	<h3>The Sun</h3>
 	<img src="sun.webp" alt="Picture of the Sun through a telescope">
 	<p>test3</p>
 
+	<script>
+		// Function to scroll to the top of the page
+		function scrollToTop() {
+			window.scrollTo({
+				top : 0,
+				behavior : 'smooth'
+			});
+		}
+	</script>
 
 </body>
 </html>
