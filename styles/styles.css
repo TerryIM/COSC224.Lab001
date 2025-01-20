@@ -13,7 +13,12 @@
     line-height: 1.5;
 }
 body {
-    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(128,35,35);
+    background: radial-gradient(circle, rgba(128,35,35,1) 0%, rgba(148,233,205,1) 68%, rgba(0,0,0,1) 98%);
 }
 
 header {
