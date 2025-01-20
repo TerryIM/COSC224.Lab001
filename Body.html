@@ -6,7 +6,8 @@
 <title>Stuff About Space</title>
 </head>
 <body>
-	
+	<button style="position: fixed; right: 10px; top: 10px;"
+		onclick="scrollToTop()">Top</button>
 
 	<div id="PoC"></div>
 	<h3>The Pillars of Creation</h3>
@@ -32,6 +33,15 @@
 		dark regions caused by magnetic concentrations, and solar prominences,
 		large loops of plasma that closely follow the magnetic field.</p>
 
+	<script>
+		// Function to scroll to the top of the page
+		function scrollToTop() {
+			window.scrollTo({
+				top : 0,
+				behavior : 'smooth'
+			});
+		}
+	</script>
 
 </body>
 </html>
