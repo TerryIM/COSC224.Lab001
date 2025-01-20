@@ -16,8 +16,7 @@
             </a>
         </header>
         <main>
-            <button style="position: fixed; right: 10px; top: 10px;"
-                onclick="scrollToTop()">Top</button>
+            <button id="scrollButton" onclick="scrollToTop()">TOP</button>
 
             <div class="img-card">
                 <h3 class="subtitle">The Pillars of Creation</h3>
@@ -67,6 +66,14 @@
                     behavior : 'smooth'
                 });
             }
+            window.addEventListener('scroll', function() {
+                const scrollButton = document.getElementById('scrollButton');
+                if (window.scrollY > 100) {
+                    scrollButton.style.display = 'block';
+                } else {
+                    scrollButton.style.display = 'none';
+                }
+            });
         </script>
     </body>
 </html>
