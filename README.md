@@ -6,6 +6,8 @@ A simple website to display striking space images.
 Group Members:
   - Terry Baring - 300304016
   - Andres Laverde - 300340209
+  - Juliana Nina - 300327289
+  - Thais Damasceno
 
 Work Completed:
   -  Clickable Images: Terry
